@@ -2,7 +2,7 @@
 
 This repository provides Python 3.11 scripts for flood frequency analysis using the Gumbel Extreme Value Type-I distribution. The workflow was developed to estimate transboundary flood frequency, peak discharge probability, and return periods for the Kosi and Teesta river basins.
 
-Features
+Features:
 Historical discharge preprocessing
 Annual maximum series extraction
 Gumbel distribution fitting
@@ -10,8 +10,8 @@ Flood return period estimation
 Flood quantile calculation
 Statistical visualization
 Upstream–downstream comparison
-Methodology
 
+Methodology:
 The analysis follows the Gumbel Extreme Value framework:
 
 [
@@ -37,12 +37,12 @@ where:
 (\sigma) = standard deviation
 (K_T) = Gumbel frequency factor
 
-Data Source
+Data Source:
 GEOGLOWS River Forecast System
 Historical river discharge observations
 
 
-Software Requirements
+Software Requirements:
 Python 3.11
 NumPy
 Pandas
@@ -51,7 +51,7 @@ Matplotlib
 Seaborn
 
 
-Applications
+Applications:
 Flood frequency analysis
 Extreme flood estimation
 Return period assessment
