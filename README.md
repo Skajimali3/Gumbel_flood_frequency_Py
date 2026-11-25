@@ -11,6 +11,14 @@ Flood quantile calculation;
 Statistical visualization;
 Upstream–downstream comparison;
 
+How to use
+•	Copy the code below into a file named Gumbel_FFA_Teesta_Kosi.py.
+•	Put the workbook Gumbel_FFA_Teesta_Kosi_100y_RP.xlsx in the same folder (or change WORKBOOK in section 2).
+•	Install packages: pip install numpy pandas scipy matplotlib openpyxl
+•	Run: python Gumbel_FFA_Teesta_Kosi.py. Results go to the folder "outputs".
+•	To rebuild the AMS from the daily CSV files instead, set AMS_SOURCE = "csv" and set DATE_COL and Q_COL in read_ams_from_csv() to your column names.
+
+
 Methodology:
 The analysis follows the Gumbel Extreme Value framework:
 
